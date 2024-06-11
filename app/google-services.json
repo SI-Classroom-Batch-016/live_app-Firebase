@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "984137698469",
+    "project_id": "batch-16-live-app",
+    "storage_bucket": "batch-16-live-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984137698469:android:b640fe6764ff75167cd14c",
+        "android_client_info": {
+          "package_name": "com.example.firebaseliveapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtRKGsKOH64Ltm9dRO2jGn240AJMf_W2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
