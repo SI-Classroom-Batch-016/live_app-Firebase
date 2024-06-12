@@ -1,4 +1,4 @@
-package com.example.firebaseliveapp
+package com.example.firebaseliveapp.fragments
 
 import android.os.Bundle
 import android.util.Log
@@ -9,6 +9,8 @@ import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
+import com.example.firebaseliveapp.FirebaseViewModel
+import com.example.firebaseliveapp.R
 import com.example.firebaseliveapp.databinding.FragmentHomeBinding
 
 
@@ -16,7 +18,7 @@ class HomeFragment : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
 
-    private val viewModel: FirebaseViewModel by viewModels()
+    private val viewModel: FirebaseViewModel by activityViewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
